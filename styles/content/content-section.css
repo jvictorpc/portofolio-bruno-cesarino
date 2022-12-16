@@ -1,0 +1,31 @@
+.content{
+    width: 100vw;
+    height: auto;
+    max-width: 650px;
+    min-width: 390px;
+}
+
+.content-title {
+    font-size: 1.3em;
+    text-align: center;
+    color: var(--very-dark-red);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+
+    width: 80%;
+    margin: 0 auto;
+    padding: 1.5em 0 .5em 0;
+    border-bottom: 1px solid var(--very-dark-red);
+}
+
+
+.text {
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 80%;
+
+    font-size: 1em;
+    letter-spacing: 2px;
+}

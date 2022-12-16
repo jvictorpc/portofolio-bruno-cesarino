@@ -1,0 +1,55 @@
+/* Import das fontes */
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+/* import css */
+@import url('./header/header.css');
+@import url('./header/menu.css');
+@import url('./content/content-section.css');
+@import url('./content/slider.css');
+@import url('./footer/footer.css');
+
+/* variáveis css */
+:root {
+    /* cores primarias */
+    --dark-red : #911F27;
+    --very-dark-red: #630A10;
+    --very-soft-yellow: #FCF0C8;
+    --soft-orange: #FACE7F;
+
+    /* cor do texto */
+    --cor-escura: #383838;
+    --cor-clara: #fcf7fa;
+
+    /* fontes */
+    --fonte-titulo: 'Major Mono Display', monospace;
+    --fonte-principal: 'Roboto Condensed', sans-serif;
+
+}
+
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    max-width: 650px;
+    min-width: 390px;
+    background-color: var(--very-soft-yellow);
+    font-family: var(--fonte-principal);
+    font-size: 1.2em;
+    margin: 0 auto;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    max-width: 650px;
+    min-width: 390px;
+}

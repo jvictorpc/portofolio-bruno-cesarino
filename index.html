@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Bruno Cesarino</title>
+
+    <!-- link fontawesome -->
+    <script src="https://kit.fontawesome.com/ec6b1745f3.js" crossorigin="anonymous"></script>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/favicons/favicon.ico" type="image/x-icon">
+
+    <!-- arquivos css -->
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="nav">
+                <button class="btn-menu" aria-controls="menu" aria-haspopup="true" aria-label="abre e fecha menu"><i
+                        class="fa-solid fa-bars"></i></button>
+
+                <ul class="menu-lista" role="menu">
+                    <li class="item-lista">
+                        <a href="#">Início</a>
+                    </li>
+                    <li class="item-lista">
+                        <a href="#">Obras</a>
+                    </li>
+                    <li class="item-lista">
+                        <a href="#">Sobre</a>
+                    </li>
+                    <li class="item-lista">
+                        <a href="#">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+            
+
+            <h1 class="header-title"><img src="./img/abelha-amarela.png" alt="logo do site" class="logo"> CESARINO</h1>
+        </header>
+
+        <section class="content">
+            <h2 class="content-title">Início</h2>
+
+            <div class="carousel">
+                <div class="images">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+
+
+                    <div class="img-container first">
+                        <img src="./img/obra-1.jpg" alt="image 1">
+                    </div>
+                    <div class="img-container">
+                        <img src="./img/obra-2.jpg" alt="image 2">
+                    </div>
+                    <div class="img-container">
+                        <img src="./img/obra-3.jpg" alt="image 3">
+                    </div>
+
+
+                    <!-- navigation auto -->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
+
+                    <div class="manual-navigation">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text">
+                <p>A exposição "loucura total" faz um apurado geral das obras do artista sousense Bruno Cesarino de Freitas, de 32 anos. Filho de comerciante, crescera dentro da loja de tintas do pai, onde teve o primeiro contato com as cores. Iniciara sua produção aos 19 anos, tendo hoje um acerco com mais de 150 obras produzidas. </p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <a href="#">
+                <i class="fa-brands fa-instagram social-icon"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-facebook social-icon"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-whatsapp social-icon"></i>
+            </a>
+        </footer>
+    </div>
+
+    
+
+    <script src="slider.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

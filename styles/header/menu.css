@@ -1,0 +1,66 @@
+.nav{
+    position: relative;
+}
+
+.btn-menu{
+    width: 70px;
+    height: 70px;
+    
+    border: none;
+    background: none;
+    color: var(--very-soft-yellow);
+    font-size: 2em;
+    text-align: center;
+    transition: .7s;
+    cursor: pointer;
+}
+
+
+
+.nav.active .menu-lista {
+    display: block;
+    left: 0;
+    visibility: visible;
+    overflow-y: auto;
+
+}
+
+.nav.active .btn-menu {
+    background-color:var(--very-dark-red) ;
+}
+
+.menu-lista {
+    background-color: var(--dark-red);
+    width: 250px;
+    height: auto;
+    position: absolute;
+    left: -250px;
+    top:70px ;
+    list-style: none;
+    transition: .7s;
+    z-index: 1000;
+    visibility: hidden;
+
+}
+
+.item-lista:hover {
+    background-color: var(--very-dark-red);
+   
+    transition: .5s ease-in-out;
+    
+}
+.item-lista  a{
+    display: block;
+    padding: 1.5em 0.8em;
+    
+    text-decoration: none;
+    color: var(--cor-clara);
+    opacity: .7;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    transition: .5s ease-in-out;
+    
+}
+
+.item-lista  a:hover{
+    opacity: 1;
+}

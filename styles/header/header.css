@@ -1,0 +1,31 @@
+.header{
+    width: 100vw;
+    max-width: 650px;
+    min-width: 390px;
+    background-color: var(--dark-red);
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-title{
+    font-family: var(--fonte-titulo);
+    color: var(--very-soft-yellow);
+    font-size: 1em;
+    letter-spacing:5px;
+    justify-self: flex-end;
+    text-align: center;
+    margin-right: 1.2em;
+
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+.logo {
+    width: 20px;
+    text-align: center;
+    
+}
